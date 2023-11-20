@@ -60,7 +60,7 @@ jobs:
       - name: Check workflow contents, jobs
         uses: skills/action-check-file@v1
         with:
-          file: "setup.sh"
+          file: "code/setup.sh"
           search: "install sl"
 
       # In README.md, switch step 4 for step X.
